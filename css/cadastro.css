@@ -1,0 +1,101 @@
+.cadastro{
+    background-color: #F5E0A5;
+    width: 1200px;
+    height: 500px;
+    border-radius: 60px;
+    position: absolute;
+    left: 20%;
+    bottom: 30%;
+    top: 30%;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 30px;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+}
+
+.filtro{
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1C5841;
+    cursor: pointer;
+}
+
+.filtro:hover {
+    background-color: #1b9e6e;
+}
+.cadastrar{
+    display: flex;
+    justify-content: end;
+    padding-right: 15%;
+    padding-top: 40px;
+    align-items: center;
+    gap: 30px;
+}
+.psicologo{
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1C5841;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+}
+.voluntario{
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #05A269;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+}
+.paciente{
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #F8A764;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+}

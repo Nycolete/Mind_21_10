@@ -1,0 +1,197 @@
+.container-calendar {
+    background-color: #64f8a7;
+
+    margin: 1em;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    width: inherit;
+    min-width: fit-content;
+    height: inherit;
+}
+
+.container-calendar p {
+    color: white;
+    font-family: 'chillax';
+    text-align: center;
+    font-size: larger;
+    line-height: 1px;   
+    padding-top: 5%;
+}
+
+.container-calendar-2 {
+    background-color: white;
+    margin: 5%;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    min-width: fit-content;
+    width: inherit;
+    height: inherit;
+}
+
+
+.calendario {
+    margin: 2em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    height: 90%;
+    position: relative;
+}
+
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5em;
+    margin-top: 10px;
+    height: inherit;
+
+}
+
+.dia-cabecalho {
+    padding-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'chillax';
+    border-radius: 5px;
+    border: 3px solid #1ef855;
+    background-color: #1ef855;
+    color: #fff;
+    font-weight: bold;
+    cursor:default;
+}
+
+.dia{
+    text-align: center;
+    font-weight: bold;
+    max-height: inherit;
+    border-radius: 5px;
+    background-color: #fafafa;
+    outline: 1px solid #cfcfcf;
+    padding: 10%;
+
+    transform: none;
+    box-shadow: none;
+    transition: transform 0.1s;
+}
+
+.dia-invalido {
+    text-align: center;
+    font-weight: bold;
+    max-height: inherit;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: 1px solid #e0e0e0;
+    padding: 10%;
+}
+
+.dia:hover{
+    background-color: white;
+    cursor: pointer;
+    transform: translate(1px,-1px) scale(1);
+    box-shadow: -1px 1px rgb(3, 70, 35);
+}
+
+.dia-invalido:hover{
+    background-color: #ff857c;
+    cursor: not-allowed;
+
+    transform: none;
+    box-shadow: none
+}
+
+.dia-marcado.clicked {
+    background-color: #19ff79;
+    box-shadow: -3px 3px #006b20;
+    transform: translate(3px,-3px) scale(1);
+    color: white;
+    outline: 1px solid #63ff85;
+    transition: outline 0.5s;
+    transition: transform 0.5s;
+    transition: background-color 0.1s;
+}
+
+.dia-marcado.clicked:hover {
+    background-color: #2bff84;
+
+    transition: background-color 0.1s;
+}
+
+.dia-marcado{
+    background-color: #00AD6E;
+    outline: 1px solid #00643f;
+    outline-offset: -2px;
+    color: white;
+
+}
+
+.dia-marcado:hover{
+    background-color: #1bc285;
+    outline: 1px solid #00643f;
+    outline-offset: -2px;
+    color: white;
+
+}
+
+.dia.hoje{
+    background-color: #F8A764;
+    outline: 2px solid #F8A764;
+    outline-offset: 1px;
+    border-radius: 5px;
+
+}
+
+.dia.hoje:hover {
+    background-color: #ffb77d;
+    cursor: pointer;
+
+    transform: translate(1px,-1px) scale(1);
+    box-shadow: none
+}
+
+.dia-invalido-4{
+    background-color: #fffddf;
+}
+
+.dia-cabecalho-4 {
+    border: 3px solid #f8e21e;
+    background-color: #f8e21e;
+    color: #fff;
+}
+
+.dia-invalido-5{
+    background-color: #ffdfe2;
+}
+
+.dia-cabecalho-5 {
+    border: 3px solid #f81e30;
+    background-color: #f8871e;
+    color: #fff;
+}
+
+.dia-invalido-6{
+    background-color: #ffdffd;
+}
+
+.dia-cabecalho-6 {
+    border: 3px solid #f81ee6;
+    background-color: #f81ee6;
+    color: #fff;
+}
+
+.dia-invalido-9{
+    background-color: #ffdffd;
+}
+
+.dia-cabecalho-9 {
+    border: 3px solid #f81ee6;
+    background-color: #f81ee6;
+    color: #fff;
+}
+
+.dia-invalido-9{
+    background-color: #f81ee6;
+    background-color: #d7ccf5;
+}
+
